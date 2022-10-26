@@ -6,5 +6,5 @@ date_tz = fields.Selection('_tz_get', string='Timezone', required=True,
 
 @api.model
 def _tz_get(self):
-	return [(x, x) for x in pytz.all_timezones]
+    return [(x, x) for x in pytz.all_timezones]
 ```
