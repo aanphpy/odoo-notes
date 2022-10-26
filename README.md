@@ -1,0 +1,2 @@
+# odoo-notes
+Odoo Notes
